@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Country Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cari Data Negara</h1>
+
+        <!-- Input form untuk nama negara -->
+        <div class="input-form">
+            <input type="text" id="countryName" placeholder="Masukkan nama negara" />
+            <button onclick="searchCountry()">Cari</button>
+        </div>
+
+        <div id="country-info">
+            <p><strong>Nama Negara:</strong> <span id="name"></span></p>
+            <p><strong>Region:</strong> <span id="region"></span></p>
+            <p><strong>Subregion:</strong> <span id="subregion"></span></p>
+            <p><strong>Population:</strong> <span id="population"></span></p>
+            <p><strong>Area:</strong> <span id="area"></span></p>
+            <p><strong>Flag:</strong> <span id="flag"></span></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
